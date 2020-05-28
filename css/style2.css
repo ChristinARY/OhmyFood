@@ -75,6 +75,8 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
   }
+
+  
 #pagebodymenu2
 {
     display: flex;
@@ -390,5 +392,13 @@ footer
     #pagebodymenu4
     {
         width: 100%;
+    }
+    .deco
+    {
+        width: 22%;
+    }
+    .prelude
+    {
+        text-align: center;
     }
 }
