@@ -354,31 +354,20 @@ footer
       
         display: flex;
         flex-direction: column;
-        margin-bottom: 2em;
-        margin-left: 10em;
-        
+        align-items: center;
+    
     }
-.liencouple1
-{
-    padding-left: 10em;
-    padding-right: 10em;
-    padding-top: 4em;
-    padding-bottom: 4em;
-}
-.liencouple2
-{
-    padding-left: 10em;
-    padding-right: 10em;
-    padding-top: 4em;
-    padding-bottom: 4em;
-}
+
+
 
     .menu1
 {
     display: flex;
     justify-content: center;
-
+    width: 50%;
     margin-bottom: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
    
   
 }
@@ -387,21 +376,29 @@ footer
 {
     display: flex;
     justify-content: center;
-   
+    width: 50%;
     margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .menu3
 {
     display: flex;
     justify-content: center;
+    width: 50%;
     margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 .menu4
 {
     display: flex;
     justify-content: center;
+    width: 50%;
     margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 .loading
 {
