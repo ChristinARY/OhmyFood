@@ -372,4 +372,23 @@ footer
 
 
 
-  
+  @media screen and (max-width: 559px)
+
+{
+    #pagebodymenu1
+    {
+        width: 100%;
+    }
+    #pagebodymenu2
+    {
+        width: 100%;
+    }
+    #pagebodymenu3
+    {
+        width: 100%;
+    }
+    #pagebodymenu4
+    {
+        width: 100%;
+    }
+}
