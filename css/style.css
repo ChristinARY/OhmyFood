@@ -66,7 +66,7 @@ h1
     -webkit-box-shadow : 0 0 15px #B5B5B1;
     -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
-    width: 13em;
+    width: 14em;
     margin-right: 1em;
 }
 #textmenu1
@@ -89,7 +89,7 @@ h1
     -webkit-box-shadow : 0 0 15px #B5B5B1;
     -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
-    width: 13em;
+    width: 14em;
     margin-left: 1em;
 }
 #textmenu2
@@ -128,7 +128,7 @@ h1
     -webkit-box-shadow : 0 0 15px#B5B5B1;
     -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
-    width: 13em;
+    width: 14em;
     margin-right: 1em;
 }
 #textmenu3
@@ -170,7 +170,7 @@ h1
     -webkit-box-shadow : 0 0 15px #B5B5B1;
     -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
-    width: 13em;
+    width: 14em;
     margin-left: 1em;
 }
 
@@ -370,7 +370,7 @@ footer
 {
     display: flex;
     justify-content: center;
-    width: 13em;
+    width: 15em;
     margin-bottom: 4em;
     margin-right: 0;
   
@@ -381,7 +381,7 @@ footer
 {
     display: flex;
     justify-content: center;
-    width: 13em;
+    width: 15em;
     padding-top: 1em;
     padding-bottom: 1em;
     margin-bottom: 2em;
@@ -392,7 +392,7 @@ footer
 {
     display: flex;
     justify-content: center;
-    width: 13em;
+    width: 15em;
     margin-bottom: 4em;
     margin-right: 0;
 }
@@ -400,7 +400,7 @@ footer
 {
     display: flex;
     justify-content: center;
-    width: 13em;
+    width: 15em;
     margin-bottom: 2em;
     margin-left: 0;
 }
