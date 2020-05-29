@@ -251,13 +251,14 @@ body
 }
 .soustitre
 {
-    
     margin-top: 35px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: justify;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 .prelude
 {
@@ -423,19 +424,19 @@ footer
     }
     .prelude
     {
-        text-align: justify;
+        text-align: center;
     }
     .memu2prelude1
     {
-        text-align: justify;
+        text-align: center;
     }
     .memu2prelude2
     {
-        text-align: justify;
+        text-align: center;
     }
     .memu2prelude3
     {
-        text-align: justify;
+        text-align: center;
     }
     .font1
     {
@@ -481,19 +482,19 @@ footer
     }
     .prelude
     {
-        text-align: justify;
+        text-align: center;
     }
     .memu2prelude1
     {
-        text-align: justify;
+        text-align: center;
     }
     .memu2prelude2
     {
-        text-align: justify;
+        text-align: center;
     }
     .memu2prelude3
     {
-        text-align: justify;
+        text-align: center;
     }
     .font1
     {
