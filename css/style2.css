@@ -91,14 +91,7 @@ body
     margin-bottom: 3em;
     margin-bottom: 4em;
     font-family: "Source Serif Pro", serif;
-    /* Fallback: Set a background color. */
     
-    
-    /* Create the gradient. */
-   
-    background: -webkit-linear-gradient(-45deg, #c67412 10%, #a56799 60%, #6b30eb 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 #pagebodymenu2 .prelude:hover:after {
     transform: scaleX(1);
@@ -264,10 +257,26 @@ body
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-align: justify;
 }
 .prelude
 {
     font-size: 2em;
+}
+.memu2prelude1
+{
+    font-size: 2em;
+    color: #C67412;
+}
+.memu2prelude2
+{
+    font-size: 2em;
+    color: #A56799;
+}
+.memu2prelude3
+{
+    font-size: 2em;
+    color: #6E4CCC;
 }
 .listemenu
 {
@@ -275,7 +284,30 @@ body
    margin: auto;
    margin-top: 2em;
    margin-bottom: 3em;
-  
+}
+.page2listemenu1
+{
+   width: 75%;
+   margin: auto;
+   margin-top: 2em;
+   margin-bottom: 3em;
+   color: #C67412 ;
+}
+.page2listemenu2
+{
+   width: 75%;
+   margin: auto;
+   margin-top: 2em;
+   margin-bottom: 3em;
+   color: #A56799;
+}
+.page2listemenu3
+{
+   width: 75%;
+   margin: auto;
+   margin-top: 2em;
+   margin-bottom: 3em;
+   color: #6E4CCC;
 }
 .basmenu1
 {
@@ -391,9 +423,36 @@ footer
     }
     .prelude
     {
+        text-align: justify;
+    }
+    .memu2prelude1
+    {
+        text-align: justify;
+    }
+    .memu2prelude2
+    {
+        text-align: justify;
+    }
+    .memu2prelude3
+    {
+        text-align: justify;
+    }
+    .font1
+    {
         text-align: center;
     }
-    
+    .font2
+    {
+        text-align: center;
+    }
+    .font3
+    {
+        text-align: center;
+    }
+    .font4
+    {
+        text-align: center;
+    }
     
 }
 
@@ -422,8 +481,35 @@ footer
     }
     .prelude
     {
+        text-align: justify;
+    }
+    .memu2prelude1
+    {
+        text-align: justify;
+    }
+    .memu2prelude2
+    {
+        text-align: justify;
+    }
+    .memu2prelude3
+    {
+        text-align: justify;
+    }
+    .font1
+    {
         text-align: center;
     }
-    
+    .font2
+    {
+        text-align: center;
+    }
+    .font3
+    {
+        text-align: center;
+    }
+    .font4
+    {
+        text-align: center;
+    }
     
 }
