@@ -257,8 +257,8 @@ body
     justify-content: space-between;
     align-items: center;
     text-align: justify;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 .prelude
 {
@@ -462,19 +462,19 @@ footer
 {
     #pagebodymenu1
     {
-        width: 90%;
+        width: 95%;
     }
     #pagebodymenu2
     {
-        width: 90%;
+        width: 95%;
     }
     #pagebodymenu3
     {
-        width: 90%;
+        width: 95%;
     }
     #pagebodymenu4
     {
-        width: 90%;
+        width: 95%;
     }
     .deco
     {
