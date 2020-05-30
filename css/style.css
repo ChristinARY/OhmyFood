@@ -33,7 +33,10 @@ body
     font-size: x-large;
     margin-bottom: 2em;
 }
-
+.entetetitre
+{
+    letter-spacing: -3px;
+}
 
 h1
 {
@@ -56,7 +59,7 @@ h1
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     
 }
 
@@ -66,7 +69,7 @@ h1
     -webkit-box-shadow : 0 0 15px #B5B5B1;
     -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
-    width: 14em;
+    width: 15em;
     margin-right: 1em;
 }
 #textmenu1
@@ -81,6 +84,7 @@ h1
 .font01
 {
     font-family: "Devonshire", cursive;
+    font-size: 22px;
 }
 .menu2
 {
@@ -89,7 +93,7 @@ h1
     -webkit-box-shadow : 0 0 15px #B5B5B1;
     -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
-    width: 14em;
+    width: 15em;
     margin-left: 1em;
 }
 #textmenu2
@@ -101,7 +105,7 @@ h1
 
 .degrade {
 
-    font-size: 15px;
+    font-size: 18px;
     /* Fallback: Set a background color. */
     background-color: red;
     
@@ -128,7 +132,7 @@ h1
     -webkit-box-shadow : 0 0 15px#B5B5B1;
     -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
-    width: 14em;
+    width: 15em;
     margin-right: 1em;
 }
 #textmenu3
@@ -139,7 +143,7 @@ h1
 .font03
 {
 
-    font-size: 18px;
+    font-size: 22px;
     /* Fallback: Set a background color. */
     background-color: red;
     
@@ -170,7 +174,7 @@ h1
     -webkit-box-shadow : 0 0 15px #B5B5B1;
     -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
-    width: 14em;
+    width: 15em;
     margin-left: 1em;
 }
 
@@ -181,6 +185,7 @@ h1
 .font04
 {
     font-family: "Kaushan Script", cursive;
+    font-size: 18px;
 }
 #textmenu4
 {
@@ -353,7 +358,15 @@ footer
 
 {
    
-    
+    .entete
+{
+    font-size: large;
+}
+
+footer
+{
+    font-size: 18px;
+}
     .couplemenue
     {
       
