@@ -262,7 +262,25 @@ body
     font-family: "Kaushan Script", cursive;
     font-size: 3em;
 }
-
+#pagemention
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #EEEAEB;
+    border: black, 4em;
+    -webkit-box-shadow : 0 0 15px #B5B5B1;
+    -moz-box-shadow : 0 0 15px #B5B5B1;
+    box-shadow : 0 0 15px #B5B5B1;
+    width: 68%;
+    margin-bottom: 3em;
+    margin-bottom: 4em;
+    font-family: "Kalam", cursive;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
 .deco
 {
     width: 30%;
