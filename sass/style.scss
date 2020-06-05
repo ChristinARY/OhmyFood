@@ -393,7 +393,7 @@ footer
         flex-direction: column;
         align-items: center;
         margin-bottom: 2em;
-    
+        margin-left: 2em;
     }
 
 
@@ -424,16 +424,19 @@ footer
 {
     display: flex;
     justify-content: center;
-    width: 15em;
+    width: 14em;
     margin-bottom: 4em;
-    
+    padding-right: 1em;
+    padding-top: 1em;
 }
 .menu4
 {
     display: flex;
     justify-content: center;
-    width: 15em;
+    width: 14em;
     margin-bottom: 2em;
+    padding-right: 1em;
+    padding-top: 1em;
     
 }
 

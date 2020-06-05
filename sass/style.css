@@ -454,6 +454,7 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 2em;
+    margin-left: 2em;
   }
   .menu1 {
     display: -webkit-box;
@@ -484,8 +485,10 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 15em;
+    width: 14em;
     margin-bottom: 4em;
+    padding-right: 1em;
+    padding-top: 1em;
   }
   .menu4 {
     display: -webkit-box;
@@ -494,8 +497,10 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 15em;
+    width: 14em;
     margin-bottom: 2em;
+    padding-right: 1em;
+    padding-top: 1em;
   }
 }
 /*# sourceMappingURL=style.css.map */
