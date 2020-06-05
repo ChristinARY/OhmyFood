@@ -298,6 +298,8 @@ body {
 }
 
 #pagemention {
+  background-color: #EEEAEB;
+  font-family: "Kalam", cursive;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -306,14 +308,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  background-color: #EEEAEB;
   border: black, 4em;
   -webkit-box-shadow: 0 0 15px #B5B5B1;
   box-shadow: 0 0 15px #B5B5B1;
   width: 68%;
-  margin-bottom: 3em;
   margin-bottom: 4em;
-  font-family: "Kalam", cursive;
   padding-top: 2em;
   padding-bottom: 2em;
   padding-left: 2em;
