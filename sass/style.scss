@@ -12,7 +12,7 @@
 
 
 @mixin decoration--entete {
-    background-color: #569C87;
+    background-color: $couleurblocheadfooter;
     text-align: center;
     font-size: x-large;
     margin-bottom: 2em;
@@ -22,8 +22,8 @@
     justify-content: space-between;
     text-align: center;
     font-size: 23px;
-    color: #FCCA46;
-    background-color: #569C87;
+    color: $couleurfont;
+    background-color: $couleurblocheadfooter;
     padding-left: 10px;
     padding-right: 10px;
     bottom: 0;
@@ -32,8 +32,22 @@
     padding-bottom: 0;
     
 }
+@mixin degradertext {
+    /* Fallback: Set a background color. */
+    background-color: red;
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
 $couleurfont:#FCCA46;
 $culeurbody:#FCFCFC;
+$couleurblocheadfooter: #569C87;
 .entete
 {
     @include decoration--entete;
@@ -86,9 +100,6 @@ body
     display: flex;
     flex-direction: column;
 }
-
-
-
 .pagebody
 {
    
@@ -121,7 +132,7 @@ body
 }
 .font1
 {
-    font-family: "Kalam", cursive;
+    font-family: "Itim", cursive;
 }
 .font01
 {
@@ -140,27 +151,17 @@ body
     color: #C67412;
     padding-top: 20%;
 }
-
+.font2
+{
+    font-family: "Source Serif Pro", serif;
+}
 .degrade {
 
     font-size: 18px;
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
+  font-family: "Kurale", serif;
     /* Create the gradient. */
     background-image: linear-gradient(20deg, #C77412, #8F59FF);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    font-family: "Source Serif Pro", serif;
+    @include degradertext;
   }
 
 .menu3
@@ -178,28 +179,15 @@ body
 {
 
     font-size: 22px;
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
+    font-family: "Dancing Script", cursive;
     /* Create the gradient. */
     background-image: linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    font-family: "Dancing Script", cursive;
+    @include degradertext;
   }
 
 .font3
 {
-    font-family: "Kalam", cursive;
+    font-family: "Itim", cursive;
 }
 .menu4
 {
@@ -210,12 +198,14 @@ body
 
 .font4
 {
-    font-family: "Kalam", cursive;
+    font-family: "Itim", cursive;
 }
 .font04
 {
     font-family: "Kaushan Script", cursive;
     font-size: 18px;
+    background-image: linear-gradient(-45deg,#55924d 10%, #c8fa80 60%, #c8fa80 80%);
+    @include degradertext;
 }
 #textmenu4
 {
@@ -247,12 +237,12 @@ a .menu1
 }
 .loading
 {
-    background-color: #569C87;
+    background-color: $couleurblocheadfooter;
     border-radius: 10px;
     width: 11em;
     text-align: center;
     font-size: 1.5em;
-    color: #FCCA46;
+    color: $couleurfont;
     margin: auto;
     margin-bottom: 2em;
     padding-top: 8px;
@@ -274,18 +264,18 @@ a .menu1
         .25em 0 0 rgba(0,0,0,0),
         .5em 0 0 rgba(0,0,0,0);}
     40% {
-      color: #FCCA46;
+      color: $couleurfont;
       text-shadow:
         .25em 0 0 rgba(0,0,0,0),
         .5em 0 0 rgba(0,0,0,0);}
     60% {
       text-shadow:
-        .25em 0 0 #FCCA46,
+        .25em 0 0 $couleurfont,
         .5em 0 0 rgba(0,0,0,0);}
     80%, 100% {
       text-shadow:
-        .25em 0 0#FCCA46,
-        .5em 0 0#FCCA46;}}
+        .25em 0 0$couleurfont,
+        .5em 0 0$couleurfont;}}
 
 
 
@@ -339,7 +329,7 @@ a .menu1
 }
 .secousse
 {
-    color: #FCCA46;
+    color: $couleurfont;
 }
 
 footer

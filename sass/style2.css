@@ -47,6 +47,9 @@ body {
 }
 
 #pagebodymenu1 {
+  background-color: #FCDFDB;
+  color: #3D1319;
+  font-family: "Kalam", cursive;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,15 +58,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  background-color: #FCDFDB;
   border: black, 4em;
   -webkit-box-shadow: 0 0 15px #B5B5B1;
   box-shadow: 0 0 15px #B5B5B1;
   width: 68%;
-  margin-bottom: 3em;
   margin-bottom: 4em;
-  font-family: "Kalam", cursive;
-  color: #3D1319;
 }
 
 .font1 {
@@ -73,7 +72,7 @@ body {
 
 .font1bas {
   font-size: 2em;
-  font-family: "Devonshire", cursive;
+  font-family: "Itim", cursive;
 }
 
 #pagebodymenu1 .prelude:hover:after {
@@ -96,6 +95,8 @@ body {
 }
 
 #pagebodymenu2 {
+  background-color: #FFF5FE;
+  font-family: "Source Serif Pro", serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,15 +105,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  background-color: #FFF5FE;
   border: black, 4em;
   -webkit-box-shadow: 0 0 15px #B5B5B1;
-          box-shadow: 0 0 15px #B5B5B1;
   box-shadow: 0 0 15px #B5B5B1;
   width: 68%;
-  margin-bottom: 3em;
   margin-bottom: 4em;
-  font-family: "Source Serif Pro", serif;
 }
 
 #pagebodymenu2 .memu2prelude1:hover:after {
@@ -174,10 +171,11 @@ body {
 
 .font2 {
   font-size: 2em;
-  /* Fallback: Set a background color. */
-  background-color: red;
+  font-family: "Kurale", serif;
   /* Create the gradient. */
   background-image: linear-gradient(20deg, #C77412, #8F59FF);
+  /* Fallback: Set a background color. */
+  background-color: red;
   /* Set the background size and repeat properties. */
   background-size: 100%;
   background-repeat: repeat;
@@ -190,6 +188,8 @@ body {
 }
 
 #pagebodymenu3 {
+  background-color: #EDEFEF;
+  font-family: "Kalam", cursive;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,14 +198,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  background-color: #EDEFEF;
   border: black, 4em;
   -webkit-box-shadow: 0 0 15px #B5B5B1;
   box-shadow: 0 0 15px #B5B5B1;
   width: 68%;
-  margin-bottom: 3em;
   margin-bottom: 4em;
-  font-family: "Kalam", cursive;
 }
 
 #pagebodymenu3 .prelude:hover:after {
@@ -228,10 +225,12 @@ body {
 }
 
 .font3 {
-  /* Fallback: Set a background color. */
-  background-color: red;
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
   /* Create the gradient. */
   background-image: linear-gradient(-80deg, #56a7e6 40%, #56a7e6 50%, #1570c7 10%);
+  /* Fallback: Set a background color. */
+  background-color: red;
   /* Set the background size and repeat properties. */
   background-size: 100%;
   background-repeat: repeat;
@@ -241,11 +240,11 @@ body {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  font-family: "Dancing Script", cursive;
-  font-size: 3em;
 }
 
 #pagebodymenu4 {
+  background-color: #FDFFFD;
+  font-family: "Kalam", cursive;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,14 +253,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  background-color: #FDFFFD;
   border: black, 4em;
   -webkit-box-shadow: 0 0 15px #B5B5B1;
   box-shadow: 0 0 15px #B5B5B1;
   width: 68%;
-  margin-bottom: 3em;
   margin-bottom: 4em;
-  font-family: "Kalam", cursive;
 }
 
 #pagebodymenu4 .prelude:hover:after {
@@ -284,10 +280,12 @@ body {
 }
 
 .font4 {
-  /* Fallback: Set a background color. */
-  background-color: red;
+  font-size: 3em;
+  font-family: "Kaushan Script", cursive;
   /* Create the gradient. */
   background-image: linear-gradient(-80deg, #c8fa80 30%, #c8fa80 30%, #83B24E 40%);
+  /* Fallback: Set a background color. */
+  background-color: red;
   /* Set the background size and repeat properties. */
   background-size: 100%;
   background-repeat: repeat;
@@ -297,10 +295,6 @@ body {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  font-family: "Dancing Script", cursive;
-  font-size: 3em;
-  font-family: "Kaushan Script", cursive;
-  font-size: 3em;
 }
 
 #pagemention {

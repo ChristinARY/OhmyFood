@@ -10,10 +10,21 @@
     font-style: normal;
   }
 @mixin decoration--entete {
-    background-color: #569C87;
+    background-color: $couleurblocheadfooter;
     text-align: center;
     font-size: x-large;
     margin-bottom: 2em;
+}
+@mixin decoration--page {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: black, 4em;
+    -webkit-box-shadow : 0 0 15px #B5B5B1;
+    -moz-box-shadow : 0 0 15px #B5B5B1;
+    box-shadow : 0 0 15px #B5B5B1;
+    width: 68%;
+    margin-bottom: 4em;
 }
 @mixin decorationfooter{
     display: flex;
@@ -21,7 +32,7 @@
     text-align: center;
     font-size: 23px;
     color: #FCCA46;
-    background-color: #569C87;
+    background-color: $couleurblocheadfooter;
     padding-left: 10px;
     padding-right: 10px;
     bottom: 0;
@@ -29,8 +40,22 @@
     padding-top: 0;
     padding-bottom: 0;
 }
+@mixin degradertext {
+    /* Fallback: Set a background color. */
+    background-color: red;
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
 $couleurfont:#FCCA46;
 $culeurbody:#FCFCFC;
+$couleurblocheadfooter: #569C87;
 .entete
 {
     @include decoration--entete;
@@ -62,30 +87,20 @@ body
 }
 #pagebodymenu1
 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
     background-color: #FCDFDB;
-    border: black, 4em;
-    -webkit-box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    margin-bottom: 4em;
-    font-family: "Kalam", cursive;
     color: #3D1319;
+    font-family: "Kalam", cursive;
+    @include decoration--page;
 }
 .font1
 {
     font-size: 3em;
     font-family: "Devonshire", cursive;
-    
 }
 .font1bas
 {
     font-size: 2em;
-    font-family: "Devonshire", cursive;
+    font-family: "Itim", cursive;
 }
 
  #pagebodymenu1 .prelude:hover:after {
@@ -105,19 +120,9 @@ body
   
 #pagebodymenu2
 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
     background-color: #FFF5FE;
-    border: black, 4em;
-    box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    margin-bottom: 4em;
     font-family: "Source Serif Pro", serif;
-    
+    @include decoration--page;
 }
 #pagebodymenu2 .memu2prelude1:hover:after {
     transform: scaleX(1);
@@ -161,37 +166,16 @@ body
 .font2
 {
     font-size: 2em;
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
+    font-family: "Kurale", serif;
     /* Create the gradient. */
     background-image: linear-gradient(20deg, #C77412, #8F59FF);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    @include degradertext;
 }
 #pagebodymenu3
 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
     background-color: #EDEFEF;
-    border: black, 4em;
-    -webkit-box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    margin-bottom: 4em;
     font-family: "Kalam", cursive;
+    @include decoration--page;
 }
 #pagebodymenu3 .prelude:hover:after {
     transform: scaleX(1);
@@ -208,39 +192,17 @@ body
   }
 .font3
 {
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
-    /* Create the gradient. */
-    background-image: linear-gradient(-80deg, #56a7e6 40% , #56a7e6 50%,#1570c7 10%);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
     font-family: "Dancing Script", cursive;
     font-size: 3em;
+    /* Create the gradient. */
+    background-image: linear-gradient(-80deg, #56a7e6 40% , #56a7e6 50%,#1570c7 10%);
+    @include degradertext;
 }
 #pagebodymenu4
 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
     background-color: #FDFFFD;
-    border: black, 4em;
-    -webkit-box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    margin-bottom: 4em;
     font-family: "Kalam", cursive;
+    @include decoration--page;
 }
 #pagebodymenu4 .prelude:hover:after {
     transform: scaleX(1);
@@ -257,26 +219,11 @@ body
   }
 .font4
 {
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
-    /* Create the gradient. */
-    background-image: linear-gradient(-80deg,#c8fa80 30% , #c8fa80 30%,#83B24E 40% );
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    font-family: "Dancing Script", cursive;
     font-size: 3em;
     font-family: "Kaushan Script", cursive;
-    font-size: 3em;
+    /* Create the gradient. */
+    background-image: linear-gradient(-80deg,#c8fa80 30% , #c8fa80 30%,#83B24E 40% );
+    @include degradertext;
 }
 #pagemention
 {
