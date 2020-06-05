@@ -474,9 +474,12 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     width: 15em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     margin-bottom: 2em;
+  }
+  #textmenu2 {
+    padding-top: 10%;
   }
   .menu3 {
     display: -webkit-box;
@@ -485,10 +488,10 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 14em;
+    width: 15em;
     margin-bottom: 4em;
-    padding-right: 1em;
     padding-top: 1em;
+    padding-bottom: 1em;
   }
   .menu4 {
     display: -webkit-box;
@@ -497,10 +500,10 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 14em;
+    width: 15em;
     margin-bottom: 2em;
-    padding-right: 1em;
     padding-top: 1em;
+    padding-bottom: 1em;
   }
 }
 /*# sourceMappingURL=style.css.map */
