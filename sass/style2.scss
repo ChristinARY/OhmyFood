@@ -362,12 +362,10 @@ footer
 }
 .secousse
 {
-    color: #FCCA46;
-}
-.secousse
-{
     padding-top: 1px;
+    color: $couleurfont;
     padding-bottom: 1px;
+    font-family: "Nunito", sans-serif;
 }
 .secousse:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */

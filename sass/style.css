@@ -319,10 +319,6 @@ a .menu1 {
   opacity: .5;
 }
 
-.secousse {
-  color: #FCCA46;
-}
-
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,7 +341,9 @@ footer {
 
 .secousse {
   padding-top: 1px;
+  color: #FCCA46;
   padding-bottom: 1px;
+  font-family: "Nunito", sans-serif;
 }
 
 .secousse:hover {
