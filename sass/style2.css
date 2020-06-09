@@ -10,6 +10,12 @@
   font-style: normal;
 }
 
+header img {
+  width: 240px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .entete {
   background-color: #569C87;
   text-align: center;

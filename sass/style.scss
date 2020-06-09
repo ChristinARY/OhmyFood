@@ -10,7 +10,11 @@
   font-style: normal;
 }
 
-
+header img{
+    width: 240px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 @mixin decoration--entete {
     background-color: $couleurblocheadfooter;
     text-align: center;
