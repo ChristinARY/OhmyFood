@@ -10,6 +10,7 @@
   font-style: normal;
 }
 
+
 header img{
     width: 240px;
     padding-top: 1em;
@@ -281,9 +282,6 @@ a .menu1
         .25em 0 0$couleurfont,
         .5em 0 0$couleurfont;}}
 
-
-
-
         /* Animation Zoom et opacité sur les menue */
 .liencouple1 {
 	-webkit-transform: scale(1);
@@ -294,9 +292,6 @@ a .menu1
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
-
-
-
 
 .menu1:hover .liencouple1 {
 	-webkit-transform: scale(1.3);
